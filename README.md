@@ -1,4 +1,4 @@
-# Analysis of TK data set — MM/YYYY to MM/YYYY
+# Analysis of Student Loans CFPB data set — MM/YYYY to MM/YYYY
 
 This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
@@ -9,12 +9,14 @@ This analysis uses TKTKTK spreadsheets.
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - `Student_Loan_Complaints_CFPB': Raw data of complaints submitted by student loan borrowers to the Consumer Finance Protection Bureau
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- `Sub-product` — What kind of loan the complaint is in reference to
+- `Issue` — Specific complaint
+- 'Tags' - indicates that the borrower who submitted the complaint self-identified as a servicemember 
+
 
 ## Methodology
 
