@@ -1,6 +1,6 @@
 # Analysis of Student Loans CFPB data set — 2011 to 2018
 
-This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings that support portions of the article, “She joined the Army National Guard to get her degree for free. She didn’t expect to graduate with $60,000 of student loan debt" TKTK published Month Date, Year TK. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
