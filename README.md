@@ -1,10 +1,10 @@
-# Analysis of Student Loans CFPB data set — MM/YYYY to MM/YYYY
+# Analysis of Student Loans CFPB data set — 2011 to 2018
 
 This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This analysis uses the following spreadsheets.
 
 The spreadsheets come from the following sources:
 
@@ -14,34 +14,29 @@ The spreadsheets come from the following sources:
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
 - `Sub-product` — What kind of loan the complaint is in reference to
-- `Issue` — Specific complaint
+- 'Issue' - Category of complaint 
+- `Sub-Issue` — Specific complaint
 - 'Tags' - indicates that the borrower who submitted the complaint self-identified as a servicemember 
 
 
 ## Methodology
 
-The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following analyses:
+##### Part 1: Download and clean 
 
-##### Part 1: TKTK
+- I downloaded the data I needed from the CFPB's socrata site. I used the site to do some basic filtering, instead of downloading all available complaints. I filtered so that I only downloaded complaints related to student loans. 
+- I cleaned the data for gaps, missing fields, etc. so that I could do my own analysis.
 
-- Description of what you did with the data
 
+##### Part 2: Pivot
 
-##### Part 2: TKTK
-
-- Description of what you did with the data
+- I used a pivot table to view complaints by count
+- I also filtered complaints by issue and sub-issue and count, to see which were the most prevalent. 
+- I cleaned answers to account for duplicates (there were many) and used the final data to make visualizations. 
 
 
 ## Outputs
 
 The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
-
-## Running the analysis yourself
-
-You can run the analysis yourself. To do so, you'll need the following installed on your computer:
-
-- Python 3
-- The Python libraries specified in [`requirements.txt`](requirements.txt)
 
 ## Licensing
 
@@ -49,4 +44,4 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com. 
+Contact Carmen Reinicke at careinicke@gmail.com 
