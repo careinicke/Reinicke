@@ -36,7 +36,7 @@ Each of the spreadsheets contain, among others, the following columns relevant t
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
+This spreadsheet contains the outputs of my analysis 'Student_Loan_Complaints_Outputs.csv'.
 
 ## Licensing
 
